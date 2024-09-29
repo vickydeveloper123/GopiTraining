@@ -1,0 +1,14 @@
+package com.inheritance.businessoperation.service;
+
+public class Demat {
+	
+	String name;
+	int accNumber;
+	boolean status;
+	
+	public Demat() {
+		
+		System.out.println(" Default constructor is running....");
+	}
+
+}

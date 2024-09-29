@@ -1,0 +1,28 @@
+package com.inheritance.businessoperations.controller;
+
+public class Company {
+	
+	String type;
+	
+	long adhar;
+	String pan;
+	int funds;
+	boolean status;
+	
+	public Company() {
+		
+		System.out.println("Default constructor is running");
+	}
+
+	
+	
+	
+	public boolean  getAllDetailsUpdation(int details) {
+		if(details>100) {
+			boolean status = true;
+		}
+	}
+	
+	
+
+}

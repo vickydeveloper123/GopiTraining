@@ -1,0 +1,9 @@
+package com.inheritance;
+
+public class Engine {
+	// instance method....
+	public void engine() {
+		System.out.println(" engine method has been started....");
+	}
+
+}

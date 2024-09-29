@@ -1,0 +1,15 @@
+package com.inheritance.businessoperations.controller;
+
+public class Company {
+	
+	String type;
+	
+	long adhar;
+	String pan;
+	int funds;
+	
+	public Company() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.inheritance.businessoperations.controller;
+
+public class Company {
+
+}

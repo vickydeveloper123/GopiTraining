@@ -1,0 +1,16 @@
+package com.inheritance.businessoperations.controller;
+
+public class Company {
+	
+	String type;
+	
+	long adhar;
+	String pan;
+	int funds;
+	
+	public Company() {
+		
+		System.out.println("Default constructor is running");
+	}
+
+}

@@ -1,0 +1,98 @@
+package com.inheritance.businessoperations.controller;
+
+public class Company {
+	
+	String type;
+	
+	long adhar;
+	String pan;
+	int funds;
+	boolean status;
+	
+	public Company() {
+		
+		System.out.println("Default constructor is running");
+	}
+
+	
+	
+	
+	public String getType() {
+		return type;
+	}
+
+
+
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+
+
+
+	public long getAdhar() {
+		return adhar;
+	}
+
+
+
+
+	public void setAdhar(long adhar) {
+		this.adhar = adhar;
+	}
+
+
+
+
+	public String getPan() {
+		return pan;
+	}
+
+
+
+
+	public void setPan(String pan) {
+		this.pan = pan;
+	}
+
+
+
+
+	public int getFunds() {
+		return funds;
+	}
+
+
+
+
+	public void setFunds(int funds) {
+		this.funds = funds;
+	}
+
+
+
+
+	public boolean isStatus() {
+		return status;
+	}
+
+
+
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+
+
+
+	public boolean  getAllDetailsUpdation(int details) {
+		if(details>100) {
+			boolean status = true;
+		}
+	}
+	
+	
+
+}

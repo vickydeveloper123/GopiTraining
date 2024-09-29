@@ -1,0 +1,13 @@
+package com.inheritance.businessoperation.service;
+
+import com.inheritance.businessoperations.controller.Company;
+
+public class IPO {
+	
+	public static void main(String[] args) {
+		
+		
+		Company ref1=new Company("Retail", 65464, "AVX123", 3543);
+	}
+
+}
